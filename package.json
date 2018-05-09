@@ -1,14 +1,15 @@
 {
   "name": "zippy-js",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "main": "lib/zippy.js",
   "bin": {
-    "zippy": "bin/cli.js"
+    "zippy": "bin/zippy.js",
+    "unzippy": "bin/unzippy.js"
   },
   "author": "notVitaliy",
   "license": "MIT",
   "dependencies": {
-    "yargs": "^1.3.2"
+    "yargs": "^11.0.0"
   },
   "repository": "git@github.com:notVitaliy/zippy.git"
 }
